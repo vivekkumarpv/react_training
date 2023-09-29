@@ -1,0 +1,36 @@
+.itinerary-card {
+  position: relative; /* Add position relative to make positioning the close button easier */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  .itinerary-details {
+    flex: 1;
+  }
+  
+  .itinerary-location {
+    margin-bottom: 16px;
+  }
+  
+  .itinerary-airline {
+    margin-top: 16px;
+  }
+  
+  .itinerary-image img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+.itinerary-logo img {
+  max-width: 100px; /* Adjust the size as needed */
+  display: block;
+  margin: 0 auto 10px; /* Center the logo and add spacing below */
+}
+
+

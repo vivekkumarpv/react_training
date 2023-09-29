@@ -1,0 +1,63 @@
+/* FlightCard.css */
+
+.flight-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  width: 300px;
+  display: flex;
+  flex-direction: column; /* Display content in a column layout */
+  align-items: center; /* Center content horizontally */
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+}
+
+.flight-card-header {
+  text-align: center;
+}
+
+.flight-card-header h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.flight-card-details {
+  margin-top: 10px;
+}
+
+.flight-card-details p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for class list */
+.flight-class-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow classes to wrap to the next line */
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.flight-class-list span {
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Add spacing between FlightCards */
+.flight-card + .flight-card {
+  margin-left: 16px;
+}
+
+/* You can customize these styles further as needed. */
